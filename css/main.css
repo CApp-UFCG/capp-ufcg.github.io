@@ -756,14 +756,14 @@ Team
 }
 
 .team-member:hover .social-btn-container{
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.7);
 }
 
 .team-member .social-btn-container .team-socail-btn{
     overflow: hidden;
     position: relative;
-    width:245px;
-    height: 230px;
+    width:250px;
+    height: 250px;
 }
 
 .team-member .social-btn-container .social-btn-box{
@@ -772,43 +772,43 @@ Team
 }
 
 .team-member .social-btn-container .facebook-btn-container{
-    bottom: 220px;
-    right: 230px;
+    bottom: 250px;
+    right: 250px;
 }
 
 .team-member .social-btn-container .twitter-btn-container{
-    bottom: 220px;
-    left: 230px;
+    bottom: 250px;
+    left: 250px;
 }
 
 .team-member .social-btn-container .linkedin-btn-container{
-    top: 220px;
-    right: 230px;
+    top: 250px;
+    right: 250px;
 }
 
 .team-member .social-btn-container .github-btn-container{
-    top: 220px;
-    left: 230px;
+    top: 250px;
+    left: 250px;
 }
 
 .team-member:hover .social-btn-container .facebook-btn-container{
-    bottom: 115px;
-    right: 122px;
+    bottom: 130px;
+    right: 130px;
 }
 
 .team-member:hover .social-btn-container .twitter-btn-container{
-    bottom: 115px;
-    left: 122px;
+    bottom: 130px;
+    left: 130px;
 }
 
 .team-member:hover .social-btn-container .linkedin-btn-container{
-    top: 115px;
-    right: 122px;
+    top: 130px;
+    right: 130px;
 }
 
 .team-member:hover .social-btn-container .github-btn-container{
-    top: 115px;
-    left: 122px;
+    top: 130px;
+    left: 130px;
 }
 
 #team .social-buttons a{
