@@ -294,6 +294,9 @@ main > section {
     background-color: rgba(0, 0, 0, .0);
     box-shadow: none;
     padding: 20px 0;
+}
+
+#navigation .animated-header > li > a {
     color: #212121;
 }
 
@@ -305,11 +308,11 @@ h1.navbar-brand {
 }
 
 .navbar-inverse .navbar-brand{
-    color: #FFFFFF;
+    color: #212121;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #FFFFFF;
+    color: #212121;
     font-size: 15px;
     text-transform: uppercase;
 }
