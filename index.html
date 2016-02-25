@@ -133,7 +133,7 @@
 	                        <p class="intro-text">Aplicativo do Controle Acadêmico*</p>
 	                        <br>
 	                        <br>
-                            <a href="https://goo.gl/osFVpR" class="btn btn-lg btn-black btn-effect"><i class="fa fa-lg fa-android"></i>  Download on Google Play</a> 
+                            <a href="https://goo.gl/osFVpR" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-lg fa-android"></i>  Download on Google Play</a> 
 	                        <br>
 	                        <br>
 	                        <br>
@@ -360,7 +360,7 @@
                             
                             </table>
                             <br>
-                            <button class="btn btn-lg btn-black btn-effect"><i class="fa fa-2x fa-android"></i>   Download do CApp</button>
+                            <a href="https://goo.gl/osFVpR" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-2x fa-android"></i>   Download do CApp</a>
                         </div>
                         
                         <div class="col-md-6 wow animated slideInRight" data-wow-dela:"1.2s">
@@ -395,28 +395,28 @@
 
 									</figcaption>
 								</figure>
-								<div class="social-btn-container">
+								<div class="viniciusHover social-btn-container">
 									<div class="team-socail-btn">
 										<span class="social-btn-box facebook-btn-container">
-											<a href="#" class="facebook-btn">
+											<a href="https://www.facebook.com/viniciusaagostini" target="_blank" class="facebook-btn">
 												<i class="fa fa-facebook"></i>
 											</a><!-- /.facebook-btn -->
 										</span><!-- /.social-btn-box -->
 
 										<span class="social-btn-box twitter-btn-container">
-											<a href="#" data-toggle="modal" data-target=".emailModal" class="twitter-btn">
+											<a href="#" data-toggle="modal" data-target=".emailModalVinicius" class="twitter-btn">
 												<i class="fa fa-envelope"></i>
 											</a><!-- /.twitter-btn -->
 										</span><!-- /.social-btn-box -->
 
 										<span class="social-btn-box linkedin-btn-container">
-											<a href="#" class="linkedin-btn">
+											<a href="https://www.linkedin.com/in/vinicius-alencar-agostini-678189116" target="_blank" class="linkedin-btn">
 												<i class="fa fa-linkedin"></i>
 											</a><!-- /.linkedin-btn -->
 										</span><!-- /.social-btn-box -->
 
 										<span class="social-btn-box github-btn-container">
-											<a href="#" class="github-btn">
+											<a href="https://github.com/viniagostini" target="_blank" class="github-btn">
 												<i class="fa fa-github-alt"></i>
 											</a><!-- /.github-btn -->
 										</span><!-- /.social-btn-box -->
@@ -566,39 +566,48 @@
 
 			</div><!-- /.team-container -->
 
-			<!-- Modals -->
-
-			<div class="emailModal modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			<!-- Modal Vinicius -->
+			<div class="emailModalVinicius modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
 			  <div class="modal-dialog modal-lg">
 				<div class="modal-content">
 
 				  <div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					<h4 class="modal-title" id="modalLabel">Entre em contato diretamente com *Desenvolvedor* </h4>
+					<h4 class="modal-title" id="modalLabel">Entre em contato diretamente com Vinicius </h4>
 				  </div>
 
 				  <div class="modal-body">
 
 					  <div class="team-profile-modal row">
-						 <div class="col-md-6 profile-image"
-						  <img src="http://i1.wp.com/phoenixheliparts.com/wp-content/uploads/2014/05/person-placeholder.jpg"  alt="" class="img-responsive">
+						 <div class="col-md-6 profile-image">
+						  <img src="img/team/01.png"  alt="" class="img-responsive" />
 						 </div>
 
 						<div class="col-md-6">
 						  <blockquote>
-							<p>Nome Sobrenome</p>
+							<p>Vinicius Agostini</p>
 							<small><i class="fa fa-map-marker"></i> Campina Grande, BR</small>
 						  </blockquote>
 						  <p>
-							<i class="fa fa-envelope"></i> nome.sobrenome@ccc.ufcg.edu.br<br>
-							<i class="fa fa-globe"></i> www.profile.com.br <br>
-							<i class="fa fa-gift"></i> Mes DIA, ANO
+							<i class="fa fa-envelope"></i> viniciusaagostini@gmail.com<br>
+							<i class="fa fa-globe"></i> https://github.com/viniagostini <br>
+							<i class="fa fa-gift"></i> 20, Julho, 1994.
 						  </p>
+                            <br>
+                            <p>Conhecimentos:</p>
+                            <div class="tags">
+                                <span class="label label-default">Android</span>
+                                <span class="label label-primary">Java</span>
+                                <span class="label label-success">Python</span>
+                                <span class="label label-info">PHP</span>
+                                <span class="label label-warning">Outra</span>
+                                <span class="label label-danger">Outra</span>
+                            </div>
 						</div>
 					  </div>
 
 					<div class="contact-form">
-							<form action="#" method="post">
+							<form id="formulario" novalidate>
 								<div class="input-field">
 									<input type="text" name="name" class="form-control" placeholder="Seu Nome...">
 								</div>
@@ -620,7 +629,201 @@
 				</div>
 			  </div>
 			</div>
+            
+            <!-- Modal Matheus -->
+            <div class="emailModalMatheus modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
 
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalLabel">Entre em contato diretamente com Matheus </h4>
+				  </div>
+
+				  <div class="modal-body">
+
+					  <div class="team-profile-modal row">
+						 <div class="col-md-6 profile-image">
+						  <img src="img/team/02.png"  alt="" class="img-responsive" />
+						 </div>
+
+						<div class="col-md-6">
+						  <blockquote>
+							<p>Matheus P. Silva</p>
+							<small><i class="fa fa-map-marker"></i> Campina Grande, BR</small>
+						  </blockquote>
+						  <p>
+							<i class="fa fa-envelope"></i> matheus.ps@icloud.com<br>
+							<i class="fa fa-globe"></i> www.linkedin.com/in/matheus-p-silva-898088a6 <br>
+							<i class="fa fa-gift"></i> 08, Janeiro, 1995.
+						  </p>
+                        <br>
+                            <p>Conhecimentos:</p>
+                            <div class="tags">
+                                <span class="label label-default">PHP</span>
+                                <span class="label label-primary">HTML-5</span>
+                                <span class="label label-success">CSS-3</span>
+                                <span class="label label-info">Jquery</span>
+                                <span class="label label-warning">AJAX</span>
+                                <span class="label label-danger">Responsive-Design</span>
+                                <br>
+                                <span class="label label-danger">Java</span>
+                                <span class="label label-warning">Python</span>
+                            </div>    
+						</div>
+					  </div>
+
+					<div class="contact-form">
+							<form id="formulario" novalidate>
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Seu Nome...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Seu Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Assunto...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Mensagem..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
+							</form>
+					</div>
+
+				  </div>
+
+				</div>
+			  </div>
+			</div>
+            
+            <!-- Modal Estacio -->
+            <div class="emailModalEstacio modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalLabel">Entre em contato diretamente com Estacio </h4>
+				  </div>
+
+				  <div class="modal-body">
+
+					  <div class="team-profile-modal row">
+						 <div class="col-md-6 profile-image">
+						  <img src="img/team/03.png"  alt="" class="img-responsive" />
+						 </div>
+
+						<div class="col-md-6">
+						  <blockquote>
+							<p>Estacio Neto</p>
+							<small><i class="fa fa-map-marker"></i> Campina Grande, BR</small>
+						  </blockquote>
+						  <p>
+							<i class="fa fa-envelope"></i> estacio.neto@ccc.ufcg.edu.br<br>
+							<i class="fa fa-globe"></i> https://github.com/estacioneto18 <br>
+							<i class="fa fa-gift"></i> 18, Abril, 1998.
+						  </p>
+                        <br>
+                            <p>Conhecimentos:</p>
+                            <div class="tags">
+                                <span class="label label-default">Java</span>
+                                <span class="label label-primary">C++</span>
+                                <span class="label label-success">Python</span>
+                                <span class="label label-info">Outra</span>
+                                <span class="label label-warning">Outra</span>
+                                <span class="label label-danger">Outra</span>
+                            </div>
+						</div>
+					  </div>
+
+					<div class="contact-form">
+							<form id="formulario" novalidate>
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Seu Nome...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Seu Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Assunto...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Mensagem..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
+							</form>
+					</div>
+
+				  </div>
+
+				</div>
+			  </div>
+			</div>
+            
+            <!-- Modal Eric -->
+            <div class="emailModalEric modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+			  <div class="modal-dialog modal-lg">
+				<div class="modal-content">
+
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="modalLabel">Entre em contato diretamente com Eric </h4>
+				  </div>
+
+				  <div class="modal-body">
+
+					  <div class="team-profile-modal row">
+						 <div class="col-md-6 profile-image">
+						  <img src="img/team/04.png"  alt="" class="img-responsive" />
+						 </div>
+
+						<div class="col-md-6">
+						  <blockquote>
+							<p>Eric Breno</p>
+							<small><i class="fa fa-map-marker"></i> Campina Grande, BR</small>
+						  </blockquote>
+						  <p>
+							<i class="fa fa-envelope"></i> eric.santos@ccc.ufcg.edu.br<br>
+							<i class="fa fa-globe"></i> https://github.com/ericbreno <br>
+							<i class="fa fa-gift"></i> 29, Abril.
+						  </p>
+                        <br>
+                            <p>Conhecimentos:</p>
+                            <div class="tags">
+                                <span class="label label-default">Java</span>
+                                <span class="label label-primary">Python</span>
+                                <span class="label label-success">Outra</span>
+                                <span class="label label-info">Outra</span>
+                                <span class="label label-warning">Outra</span>
+                                <span class="label label-danger">Outra</span>
+                            </div>
+						</div>
+					  </div>
+
+					<div class="contact-form">
+							<form id="formulario" novalidate>
+								<div class="input-field">
+									<input type="text" name="name" class="form-control" placeholder="Seu Nome...">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" class="form-control" placeholder="Seu Email...">
+								</div>
+								<div class="input-field">
+									<input type="text" name="subject" class="form-control" placeholder="Assunto...">
+								</div>
+								<div class="input-field">
+									<textarea name="message" class="form-control" placeholder="Mensagem..."></textarea>
+								</div>
+						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
+							</form>
+					</div>
+
+				  </div>
+
+				</div>
+			  </div>
+			</div>
 			<!-- end Team -->
 
 			<!-- Social section -->
@@ -658,18 +861,18 @@
 
 
 						<div class="contact-form wow animated fadeInLeft">
-							<form action="#" method="post">
+							<form id="formulario" novalidate>
 								<div class="input-field">
-									<input type="text" name="name" class="form-control" placeholder="Seu Nome...">
+									<input type="text" name="name" class="form-control" placeholder="Seu Nome..." required data-validation-required-message="Digite o nome!" />
 								</div>
 								<div class="input-field">
-									<input type="email" name="email" class="form-control" placeholder="Seu Email...">
+									<input type="email" name="email" class="form-control" placeholder="Seu Email..." required data-validation-required-message="Digite um email!" />
 								</div>
 								<div class="input-field">
-									<input type="text" name="subject" class="form-control" placeholder="Assunto...">
+									<input type="text" name="subject" class="form-control" placeholder="Assunto..."required data-validation-required-message="Digite o assunto!" />
 								</div>
 								<div class="input-field">
-									<textarea name="message" class="form-control" placeholder="Mensagem..."></textarea>
+									<textarea name="message" class="form-control" placeholder="Mensagem..." required data-validation-required-message="Digite uma mensagem!"></textarea>
 								</div>
 						       	<button type="submit" id="submit" class="btn btn-blue btn-effect">Enviar</button>
 							</form>
@@ -712,6 +915,8 @@
 		================================================== -->
 		<!-- Main jQuery -->
         <script src="js/jquery-1.11.1.min.js"></script>
+        <!-- Validation -->
+        <script src="js/jqBootstrapValidation.js"></script>
 		<!-- Twitter Bootstrap -->
         <script src="js/bootstrap.min.js"></script>
 		<!-- Single Page Nav -->
@@ -724,6 +929,8 @@
         <script src="js/jquery.slitslider.js"></script>
         <!-- onscroll animation -->
         <script src="js/wow.min.js"></script>
+        <!-- Ajax Forms-->
+        <script type="text/javascript" src="js/ajaxForm.js"></script>
 		<!-- Custom Functions -->
         <script src="js/main.js"></script>
 

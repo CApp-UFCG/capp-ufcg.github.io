@@ -473,12 +473,15 @@ Intro
 
 .intro .intro-body .brand-heading {
     font-size: 100px;
-    color: #212121;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
     vertical-align: middle;
 }
 
 .intro .intro-body .intro-text {
     font-size: 30px;
+    color: #222;
+    text-shadow: 0px 2px 3px #555;
 }
 
 .btn-circle {
@@ -758,6 +761,10 @@ Team
     left: 0;
 }
 
+.team-member:hover .viniciusHover .social-btn-container{
+    background-image: url('../img/team/hoverVinicius.png');
+}
+
 .team-member:hover .social-btn-container{
     background: rgba(0,0,0,.7);
 }
@@ -851,7 +858,7 @@ Team
 
 .team-profile-modal{
 	padding-top: 50x;
-	padding-bottom: 100px;
+	padding-bottom: 80px;
 }
 
 /*=================================================================
