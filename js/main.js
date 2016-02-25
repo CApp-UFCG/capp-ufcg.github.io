@@ -135,11 +135,9 @@ $(document).ready(function(){
     $(window).scroll(function () {
         if ($(window).scrollTop() > 400) {
             $(".navbar-brand a").css("color","#fff");
-            $("nav a").css("color","#FFFFFF");
             $("#navigation").removeClass("animated-header");
         } else {
             $(".navbar-brand a").css("color","inherit");
-            $(".nav a").css("color", "#212121");
             $("#navigation").addClass("animated-header");
         }
     });
