@@ -1081,6 +1081,17 @@ textarea.form-control {
     color: #fff;
 }
 
+.footer-social h2{
+    color: #fafafa;
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+
+.footer-social i{
+    color: red;
+}
+
 .footer-content {
     width: 390px;
     margin: 0 auto;
@@ -1099,36 +1110,62 @@ textarea.form-control {
     margin: 40px 0 35px;
 }
 
-.footer-social ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-.footer-social ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-.footer-social ul li a {
-    color: #7f7f7f;
-    display: block;
-    
-    -webkit-transition: all 0.2s ease 0s;
-       -moz-transition: all 0.2s ease 0s;
-        -ms-transition: all 0.2s ease 0s;
-         -o-transition: all 0.2s ease 0s;
-            transition: all 0.2s ease 0s;
-}
-
-.footer-social ul li a:hover {
-    color: #009EE3;
-}
 
 .footer-content > p {
     color: #ababab;
     font-size: 12px;
+}
+
+.footer-social i{
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.footer-social i{
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
 }
 
 
