@@ -47,6 +47,11 @@
 		<!-- Modernizer Script, older browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
 
+        <!-- -->
+        <link rel="stylesheet" type="text/css" href="css/slippry.css" />
+        <!-- Mapbox API CSS -->
+        <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+
         <!-- CSS : END
 		================================================== -->
 
@@ -81,7 +86,7 @@
                         <li><a href="#body">Home</a></li>
                         <li><a href="#whatIs">Sobre</a></li>
                         <li><a href="#team">Time</a></li>
-                        <li><a href="#contact">Contato</a></li>
+                        <li><a href="#social">Siga-nos</a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -106,7 +111,7 @@
 	                        <p class="intro-text">Aplicativo do Controle Acadêmico*</p>
 	                        <br>
 	                        <br>
-                            <a href="https://goo.gl/osFVpR" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-lg fa-android"></i>  Download on Google Play</a> 
+                            <a href="https://goo.gl/2jBMOt" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-lg fa-android"></i>  Download on Google Play</a> 
 	                        <br>
 	                        <br>
 	                        <br>
@@ -203,7 +208,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h3 class="media-heading">Totalmente Free</h3>
-                                    <p>E melhor, totalmente grátis e sem nenhum tipo de Ad.</p>
+                                    <p>E melhor, totalmente grátis e sem nenhum tipo de Ad. Legal né? :)</p>
                                 </div>
                             </div>
                         </div>                                                
@@ -333,11 +338,42 @@
                             
                             </table>
                             <br>
-                            <a href="https://goo.gl/osFVpR" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-2x fa-android"></i>   Download do CApp</a>
+                            <a href="https://goo.gl/2jBMOt" target="_blank" class="btn btn-lg btn-black btn-effect"><i class="fa fa-2x fa-android"></i>   Download do CApp</a>
                         </div>
                         
                         <div class="col-md-6 wow animated slideInRight" data-wow-delay:"1.2s">
-                            <img class="img-responsive" src="img/screen/screen.png">
+                            <ul class="img-responsive" id="out-of-the-box-demo">
+                              <li>
+                                <a href="#slide1">
+                                  <img class="img-responsive" src="img/screen/01.png" alt="Tela de Login">
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#slide2">
+                                  <img class="img-responsive" src="img/screen/02.png"  alt="Tela das Disciplinas">
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#slide3">
+                                  <img class="img-responsive" src="img/screen/03.png" alt="Confira todas as suas notas">
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#slide4">
+                                  <img class="img-responsive" src="img/screen/04.png" alt="Nunca mais esqueça sua sala">
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#slide4">
+                                  <img class="img-responsive" src="img/screen/05.png" alt="Saiba sua situação em todas as Displinas">
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#slide4">
+                                  <img class="img-responsive" src="img/screen/06.png" alt="Nunca mais esqueça seus horários">
+                                </a>
+                              </li>
+                            </ul>
                         </div>
                     
                     
@@ -560,8 +596,8 @@
 			</section>
 			<!-- end Social section -->
 
-			<section id="google-map">
-				<div id="map-canvas" class="wow animated fadeInUp"></div>
+			<section id="mapbox-map">
+				<div id="map-editor" class="wow animated fadeInUp"></div>
 			</section>
 
 		</main>
@@ -589,12 +625,14 @@
         <script src="js/bootstrap.min.js"></script>
 		<!-- Single Page Nav -->
         <script src="js/jquery.singlePageNav.min.js"></script>
-		<!-- Google Map API -->
-		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-	    <!-- jquery easing -->
+		<!-- Mapbox API -->
+		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+        <!-- jquery easing -->
         <script src="js/jquery.easing.min.js"></script>
         <!-- Fullscreen slider -->
         <script src="js/jquery.slitslider.js"></script>
+        <!-- Slippry slider -->
+        <script src="js/slippry.min.js"></script>
         <!-- onscroll animation -->
         <script src="js/wow.min.js"></script>
 		<!-- Custom Functions -->
