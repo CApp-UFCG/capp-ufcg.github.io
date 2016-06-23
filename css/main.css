@@ -674,6 +674,32 @@ About
 }
 
 /*=================================================================
+Full Screen Modal
+==================================================================*/
+
+.modal-dialog{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-content{
+  height: 100%;
+  border-radius: 0;
+  color; #FFFFFF;
+  overflow: auto;
+  background: #212121;
+}
+
+.modal-title{
+  font-size: 3em;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+  
+}
+
+/*=================================================================
 Screenshot
 ==================================================================*/
 
